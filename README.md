@@ -3,19 +3,19 @@ This is a CLI program made using Python that relies on arg-parse commands to pro
 You may also upload snippets from a video file to FrameIO using your own token. 
 
 # The Set Up
-1) _Check that you pip installed the following:_
+1) Check that you pip installed the following:
  * argparse
  * pymongo
  * subprocess
  * frameioclient
 
-2) _Have MongoDB Community Server [installed](https://www.youtube.com/watch?v=gB6WLkSrtJk)_
+2) Have MongoDB Community Server [installed](https://www.youtube.com/watch?v=gB6WLkSrtJk)
 
-3) _Create a [FrameIO Account](https://developer.frame.io/docs/getting-started/authentication) and obtain your Token._
+3) Create a [FrameIO Account](https://developer.frame.io/docs/getting-started/authentication) and obtain your Token.
 
-4) _Create a folder under a new Project and copy the folder's unique id_
+4) Logged in to FrameIO, create a folder under a new Project and copy the folder's unique id
 	* The unique id can be found in the address bar.
-   * For example, your address will look like _app.frame.io/projects/$$$$$$$$$/@@@@@@@@@@@_. Copy the id that is found after the third forward slash (/)
+   * For example, your address will look similar to _app.frame.io/projects/aaa-aa-aa/bbbbb-bbb-bb_. Copy the id that is found after the third forward slash (/)
 
 # Running the Program
 Place a .mp4 file in the same folder that grabVidInfo.py is in.
