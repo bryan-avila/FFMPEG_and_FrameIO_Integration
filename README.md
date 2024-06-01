@@ -18,6 +18,8 @@ You may also upload snippets from a video file to FrameIO using your own token.
    * For example, your address will look similar to _app.frame.io/projects/aaa-aa-aa/bbbbb-bbb-bb_. Copy the id that is found after the third forward slash (/)
 
 # Running the Program
+_Before running, make sure to insert your own FrameIO TOKEN and FrameIO Folder ID into the code where they are marked!_
+
 Place a .mp4 file in the same folder that grabVidInfo.py is in.
 Run the command prompt while in that folder. As an example, you may now:
 1) process a video and store its data using MongoDB: `python grabVidInfo.py --process demo.mp4`
